@@ -12,7 +12,7 @@ const ShowList = props => {
                         <img className='show__img' src={show.show.image ? show.show.image.medium : genericShow} alt={show.show.name}/>
                         <div className="show">
                                 <h1>{show.show.name}</h1>
-                                <p className="summary">{show.show.summary.replace(/(<([^>]+)>)/gi, "")}</p>
+                                <p className="summary line-clamp">{show.show.summary.replace(/(<([^>]+)>)/gi, "")}</p>
                                 <button>Show Episodes</button>
                         </div>
                     </div>

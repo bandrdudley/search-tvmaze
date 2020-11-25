@@ -26,7 +26,7 @@ const ShowForm = props => {
                   />
               </div>
               <div className="ingredient-form__actions">
-                  <button type="submit">Search</button>
+                  <button type="submit" className="searchButton">Search</button>
               </div>
           </form>
       </section>
