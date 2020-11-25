@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import ShowForm from './ShowForm';
 import ShowList from "./ShowList";
+import './Shows.css';
 
 const Shows = () => {
     const [userShows, setUserShows] = useState([]);
@@ -22,9 +23,11 @@ const Shows = () => {
 
     return (
       <section>
-          <h1>Shows</h1>
-          <ShowForm onSearchShow={searchShowsHandler}/>
-          <ShowList shows={userShows}/>
+          <header>Show Finder</header>
+          <div className="container">
+              <ShowForm onSearchShow={searchShowsHandler}/>
+              <ShowList shows={userShows}/>
+          </div>
       </section>
     );
 };

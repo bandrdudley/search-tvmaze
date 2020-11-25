@@ -12,20 +12,21 @@ const ShowForm = props => {
 
     return (
       <section className="ingredient-form">
-        <h2>ShowForm</h2>
           <form onSubmit={submitHandler}>
-              <div className="form-control">
+              <div className="form-control fa fa-search">
                   <input
-                      type="text"
+                      type="search"
                       id="title"
                       value={enteredTitle}
+                      placeholder="search"
+                      results="0"
                       onChange={event => {
                           setEnteredTitle(event.target.value);
                       }}
                   />
               </div>
               <div className="ingredient-form__actions">
-                  <button type="submit">Search Shows</button>
+                  <button type="submit">Search</button>
               </div>
           </form>
       </section>
