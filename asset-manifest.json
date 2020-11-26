@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/search-tvmaze/static/css/main.ae26ee7d.chunk.css",
+    "main.js": "/search-tvmaze/static/js/main.c9fa1000.chunk.js",
+    "main.js.map": "/search-tvmaze/static/js/main.c9fa1000.chunk.js.map",
+    "runtime-main.js": "/search-tvmaze/static/js/runtime-main.8872511a.js",
+    "runtime-main.js.map": "/search-tvmaze/static/js/runtime-main.8872511a.js.map",
+    "static/js/2.2ff311b3.chunk.js": "/search-tvmaze/static/js/2.2ff311b3.chunk.js",
+    "static/js/2.2ff311b3.chunk.js.map": "/search-tvmaze/static/js/2.2ff311b3.chunk.js.map",
+    "static/js/3.949687f4.chunk.js": "/search-tvmaze/static/js/3.949687f4.chunk.js",
+    "static/js/3.949687f4.chunk.js.map": "/search-tvmaze/static/js/3.949687f4.chunk.js.map",
+    "index.html": "/search-tvmaze/index.html",
+    "static/css/main.ae26ee7d.chunk.css.map": "/search-tvmaze/static/css/main.ae26ee7d.chunk.css.map",
+    "static/js/2.2ff311b3.chunk.js.LICENSE.txt": "/search-tvmaze/static/js/2.2ff311b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8872511a.js",
+    "static/js/2.2ff311b3.chunk.js",
+    "static/css/main.ae26ee7d.chunk.css",
+    "static/js/main.c9fa1000.chunk.js"
+  ]
+}
